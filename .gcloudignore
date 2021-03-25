@@ -1,0 +1,8 @@
+.git/
+tmp/
+log/
+.byebug_history
+db/*sqlite*
+node_modules/
+vendor/bundle/
+vendor/cache/ruby/
