@@ -7,10 +7,6 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
 gem 'puma', '~> 4.1'
 # Lock at 5.1 to prevent using `sassc`, which induces ridiculous build times.
 gem 'sass-rails', '5.1'
-# Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
-gem 'webpacker', '~> 5.2'
-# Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
 # Use Redis adapter to run Action Cable in production
@@ -27,8 +23,5 @@ gem 'nokogiri', '~> 1.10.0'  # lock to ~> 1.10.0 for platform compatibility
 gem 'web-console', '>= 3.3.0'
 gem 'listen', '~> 3.2'
 gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'active_scaffold', git: 'https://github.com/activescaffold/active_scaffold', ref: '810e1fe'
